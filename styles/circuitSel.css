@@ -103,4 +103,7 @@ footer p {
     main h2 {
         font-size: 1.8em;
     }
+    footer p {
+	font-size: 1em;
+    }
 }
