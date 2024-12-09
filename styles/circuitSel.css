@@ -1,0 +1,106 @@
+/*DEVELOPER: Em Koscielniak, IS117-005, Fall 2024 */
+body {
+	font-family: Roboto Mono, Arial;
+    font-size: 100%;
+    margin: 0 auto;
+}
+
+a:focus, a:hover {
+	font-weight: bold;
+    color: #8e0aaf; 
+}
+
+header {
+	padding: 1.5em 0 2em 0; 
+	background-color: #3e07be; 
+    border-bottom: 10px dashed white;
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+    font-size: 1.5em; 
+    color: white !important;
+    padding: 0 1em;
+}
+
+.navbar .dropdown-item {
+    font-size: 1em; 
+    color: white; 
+    background-color: #3e07be;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+} 
+
+.navbar-toggler {
+    border-color: white; 
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3E%3Cpath fill-rule='evenodd' d='M2.5 5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0 3a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0 3a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z'/%3E%3C/svg%3E");
+    width: 1.5em; 
+    height: 1.5em;
+}
+
+main {
+    border-top: 10px dashed #3e07be;
+    border-bottom: 450px solid white;
+} 
+
+main h1, main h2{
+    text-align: center;
+    padding: 0.5em 1.5em;
+}
+
+main h2 a{
+    text-decoration: none;
+}
+
+footer {
+	background-color: #3e07be;
+	clear: both;
+    border-bottom: 15px solid #3e07be;
+
+}
+footer p {
+	text-align: center;
+    font-size: 120%;
+	color: white;
+    padding: 1em 0 0;
+}
+
+@media only screen and (max-width: 1198px) {
+    .navbar-nav .nav-link {
+        font-size: 16px; 
+
+    }
+    main h1 {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .navbar-nav .nav-link {
+        font-size: 12px; 
+    }
+    main h1 {
+        font-size: 2.8em;
+    }
+    main h2 {
+        font-size: 2.2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 14px; /* Make text smaller on small screens */
+    }
+    main h1 {
+        font-size: 2.5em;
+    }
+    main h2 {
+        font-size: 1.8em;
+    }
+}
