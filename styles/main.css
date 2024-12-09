@@ -141,4 +141,7 @@ footer p {
     main #intro img {
         float: none;
     }
+    footer p {
+	font-size: 1em;
+    }
 }
