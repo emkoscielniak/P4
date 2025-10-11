@@ -3,6 +3,7 @@ body {
 	font-family: "Roboto Mono", Arial;
     font-size: 100%;
     margin: 0 auto;
+    background-color: #F5F5F5;
 }
 
 a:focus, a:hover {
@@ -84,7 +85,7 @@ footer p {
 	text-align: center;
     font-size: 120%;
 	color: white;
-    padding: 1em 0 0;
+    padding: 0.25em 0;
 }
 
 @media only screen and (max-width: 1198px) {

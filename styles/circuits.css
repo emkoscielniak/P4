@@ -3,6 +3,7 @@ body {
 	font-family: "Roboto Mono", Arial;
     font-size: 100%;
     margin: 0 auto;
+    background-color: #F5F5F5;
 }
 
 a:focus, a:hover {
