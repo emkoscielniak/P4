@@ -11,7 +11,7 @@ a:focus, a:hover {
 }
 
 header {
-	padding: 1.5em 0 2em 0; 
+	padding: 1em 0 2em 0; 
 	background-color: #3e07be; 
     border-bottom: 10px dashed white;
 }
@@ -49,6 +49,10 @@ main {
     padding-top: 30px;
 }
 
+main #intro {
+    margin-top: 2em;
+}
+
 main #intro img {
     margin-left: auto;
     margin-right: auto;
@@ -60,12 +64,13 @@ main #intro img {
 
 main #intro h1 {
     color: #3e07be;
-    font-size: 250%;
+    font-size: 225%;
     float: right;
     font-style: italic;
     font-weight: bold;
     border-left: 1050px solid #3e07be;
     padding: 0 100px 0 60px;
+    margin-top: 1.5em;
 }
 
 main #intro p {
